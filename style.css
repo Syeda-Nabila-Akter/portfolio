@@ -1,0 +1,264 @@
+/* basics */
+nav, header, footer{
+    display: block;
+}
+
+
+
+body{
+    line-height: 1;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* first section */
+
+.firstsection{
+    
+    width: 100%;
+    margin: auto;
+    background-color: #557A95;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-right: 12%;
+    padding-left: 5%;
+    
+    
+}
+
+.row{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row h1, h4{
+    
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+
+.divs1{
+    padding-left: 38%;
+}
+
+
+
+/* second section */
+
+.aboutme{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+h1.titleaboutme{
+    text-align: center;
+    color: #557A95;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.aboutme1{
+    padding-left: 12%;
+    color: #0e0d0dee;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.tabletitle{
+    padding-left: 10%;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.tablediv{
+    padding-left: 10%;
+    padding-right: 15%;
+    
+}
+
+.aboutmetable{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    min-width: 100px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    
+    
+}
+
+.aboutmetable thead tr{
+    background-color: #557A95;
+    text-align: left;
+    font-weight: bold;
+}
+
+.aboutmetable th, td{
+    padding: 10px 13px;
+}
+
+.tablediv table tbody tr{
+    border-bottom: 1px solid #557A95;
+}
+
+
+
+
+
+/* third section */
+
+h1.titleportfolio{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-1{width: 33.33%;}
+
+.portfoliosec{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #7395AE;
+}
+
+.box{
+    
+    text-align: center;    
+    margin: 24px;
+    padding: 30px 18px 34px 18px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+img{
+    width: 210px;
+    padding-bottom: 10px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #557A95;
+    
+}
+
+
+
+
+
+/* forth section */
+
+.titlecontact{
+    text-align: center;
+    color: #557A95;
+    font-family: 'Poppins', sans-serif;
+}
+.contactmesec{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+}
+
+.submit{
+    padding: 3px;
+    color: thistle;
+}
+
+/* last section */
+
+.lastpart{
+    width: 100%;
+    margin: auto;
+    background-color: #5D5C61;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 22%;
+}
+
+.lastpart button{
+    padding: 6px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.lastpart a{
+    text-decoration: none;
+    color: #557A95;
+    font-weight: bolder;
+    
+}
+
+
+
+
+
+
+/* navbar */
+nav{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul{
+    background-color: #5D5C61;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li{
+    list-style: none;
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 14px;
+    color: whitesmoke;
+}
+
+nav ul li a:hover{
+    color: #557A95;
+}
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width: 700px){
+    
+
+    .col-1{
+        width: 100%;
+        margin: 0;
+    }
+}
